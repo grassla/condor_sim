@@ -1,6 +1,7 @@
 #!/bin/bash
 # file name: sleep.sh
 
+yum install python3
 import random
 
 m1 = 3.0
