@@ -2,7 +2,6 @@ executable              = sleep.sh
 universe                = docker
 docker_image            = centos7
 docker_network_type     = host
-executable              = /bin/cat
 arguments               = /etc/hosts
 log                     = sleep.log
 output                  = output.txt
