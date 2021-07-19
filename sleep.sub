@@ -1,6 +1,6 @@
 executable              = sleep.sh
 universe                = docker
-docker_image            = grassla/condor_sim
+docker_image            = grassla/condor_sim:latest
 docker_network_type     = host
 arguments               = /etc/hosts
 log                     = sleep.log
